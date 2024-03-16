@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>WebPage Layout</title>
+        <style>
+            body{
+                margin: 0;
+                color: white;
+                background-color: #7E6363;
+            }
+            header{
+                background-color: #3E3232;
+                padding: 0.5%;
+                text-align: center;
+                background-image: url(./media/glogo.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position-x: 2.5%;
+            }
+            nav{
+                background-color: #503C3C;
+            }
+            ul{
+                margin: 0;
+                list-style-type: none;
+                display: flex;
+                flex-direction: row-reverse;
+            }
+            li{
+                padding: 1%;
+            }
+            li:hover{
+                background-color: grey;
+                /* color: black; */
+            }
+            a{
+                color: white;
+                text-decoration: none;
+            }
+            .para{
+                width: 80%;
+                text-align: justify;
+                text-align-last: center;
+                font-size: 18px;
+                line-height: 2;
+                margin-left: 10%;
+                margin-top: 2%;
+            }
+            .product-div{
+                display: flex;
+                justify-content: center;
+            }
+            .product{
+                height: 300px;
+                width: 300px;
+                border: 2px solid black;
+                margin-left: 5%;
+                background-color: #503C3C;
+            }
+            footer{
+                background-color: #3E3232;
+                padding: 1%;
+                text-align: right;
+            }
+        </style>
+    </head>
+    <body>
+         <header>
+            <h1>Grras Solution Pvt. Ltd.</h1>
+         </header>
+         <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Career</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+         </nav>
+         <div>
+                <p class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde enim neque debitis quam praesentium aspernatur ratione adipisci, odit velit labore, quisquam impedit aliquam deserunt odio eum rem vitae. Adipisci excepturi incidunt laborum et, at distinctio impedit labore exercitationem totam recusandae harum vero perferendis, praesentium eos qui, cum hic debitis. Omnis tenetur nulla est cum facere. Asperiores dolorum sapiente doloribus. Iusto laborum eaque magnam libero aliquid quibusdam voluptate eos perferendis tenetur.</p>
+         </div>
+
+         <div class="product-div">
+            <div class="product"></div>
+            <div class="product"></div>
+         </div>
+         <footer>
+            <div>Dev. By Grras solution Pvt. ltd.</div>
+         </footer>
+    </body>
+</html>
